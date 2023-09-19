@@ -21,3 +21,30 @@ declarativas(); */
 }
 
 expresion(); */
+
+const sueldo = 200;
+
+function verificarSueldo(number) {
+    switch (number) {
+        case 500:
+            console.log('Sueldo normal.');
+            break;
+        case 400:
+            console.log('Sueldo bueno.');
+            break;
+        case 300:
+            console.log('Sueldo medio.');
+            break;
+        case 200:
+            console.log('Sueldo bajo.');
+            break;
+        case 100:
+            console.log('Sueldo crítico.');
+            break;
+        default:
+            console.log('Corrupción.');
+            break;
+    }
+}
+
+verificarSueldo(sueldo);
